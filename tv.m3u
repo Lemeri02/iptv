@@ -34,21 +34,9 @@ http://bl.uma.media/live/317846/HLS/4614144_3/9642999221/b28fb562733bc4e163eb4b8
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8 
 #EXTINF:-1, Индия
 https://stream01.vnet.am/ZeeTV/mono.m3u8
-#EXTINF:-1, Ретро
-http://178.124.179.122:8088/Retro/index.m3u8
-#EXTINF:-1, Viju TV1000 Русское кино
-http://tv.streams.baikal-telecom.net/TV1000RuKino/index.m3u8
-#EXTINF:-1,Дом Кино
-https://stream01.vnet.am/DomKino/mono.m3u8
-#EXTINF:-1, Мосфильм. Золотая коллекция
-http://data.homeiptv.org:8090/Mosfilm/tracks-v1a1/mono.m3u8
 #EXTINF:-1, НТВ Сериал
 http://cdn.ntv.ru/th_serial/tracks-v1a1/mono.m3u8
 #EXTINF:-1, НТВ Хит
 http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
 #EXTINF:-1, Победа
 http://ott-cdn.ucom.am/s47/04.m3u8
-#EXTINF:-1, Русский роман
-http://46.151.151.245:10002/play/a0b3
-#EXTINF:-1, Кухня ТВ
-http://stream01.vnet.am/KukhnyaTv/mono.m3u8
