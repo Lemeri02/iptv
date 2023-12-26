@@ -1,8 +1,10 @@
 #EXTM3U
-#EXTINF:-1, БСТ1
-http://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
-#EXTINF:-1,БСТ (Уфа)
-https://rt-ural-chel-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8?version=2
+#EXTINF:-1 group-title="Общие", Первый канал HD 
+https://edge3.1internet.tv/dash-live2/streams/1tv/1tvdash.mpd
+#EXTINF:-1 group-title="Общие", Россия 1 HD
+http://farm-vgtrk.rfn.ru/hls2/russia_hd/playlist_6.m3u8
+#EXTINF:-1 group-title="Общие", НТВ HD
+http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1, БСТ
 https://bsttv.bonus-tv.ru/cdn/bst/playlist.m3u8
 #EXTINF:-1, Курай
@@ -11,11 +13,46 @@ https://bsttv.bonus-tv.ru/cdn/kurai/playlist_sdhigh.m3u8
 http://bsttv.bonus-tv.ru/cdn/tamyr/playlist.m3u8
 #EXTINF:-1, Салям
 https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
-#EXTINF:-1, Учалы ТВ
-http://live-uchalytv.cdnvideo.ru/uchalytv/uchalytv.sdp/playlist.m3u8
-#EXTINF:-1, Туган тел
-http://streamer.rtcommufa.ru:1935/tugantel/tugantel1/playlist.m3u8
 #EXTINF:-1, Туган тел HD
 http://streamer.rtcommufa.ru:1935/tugantel/hd/playlist.m3u8
 #EXTINF:-1, Матур ТВ
 http://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
+#EXTINF:-1, Курай
+http://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
+#EXTINF:-1 group-title="Домохозяйство", Загородная жизнь
+http://217.107.34.114:8009/playlist.m3u8
+#EXTINF:-1 group-title="Домохозяйство" tvg-id="zagorodnaya-zhizn", Загородная жизнь HD
+http://195.161.68.11:8004/playlist.m3u8
+#EXTINF:-1 group-title="Домохозяйство", Загородный 
+http://ott-cdn.ucom.am/s31/04.m3u8
+#EXTINF:-1 group-title="Домохозяйство", Усадьба
+http://tv.tuva.ru/usadba/index.m3u8
+#EXTINF:-1 group-title="Домохозяйство" tvg-id="bobior", Бобëр
+http://195.26.83.96:7022/play/a00t/index.m3u8
+#EXTINF:-1 tvg-id="hgtv" group-title="Домохозяйство", HGTV English
+http://streamer.enchart.one/42/64d7dbe65e57521ae6b478a3541feea3269dd666/890/stream.m3u8
+#EXTINF:-1 tvg-id="hgtv" group-title="Домохозяйство", HGTV English (Резерв)
+http://streamer.enchart.one/42/03e656b8b4d21ceed53e946ffd484365a2ac50ec/890/stream.m3u8
+#EXTINF:-1 group-title="Еда", Food Time
+http://193.33.88.172/eda_hd/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Еда", Еда
+http://u.vipl.one/high/mtpy4cu872/518.m3u8 
+#EXTINF:-1 group-title="Еда", Еда Премиум Международный 
+https://ucdn.beetv.kz/btv/live/hls/000000588.m3u8 
+#EXTINF:-1 group-title="Еда", Еда Премиум Международный HD
+http://moobl.ru/iptv/Eda_hd_int.m3u8
+#EXTINF:-1 group-title="Еда", Кухня ТВ
+http://moobl.ru/iptv/Kuhnya_hd.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="ntv-serial", НТВ-Сериал HD 
+https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
+#EXTINF:-1 group-title="Общие", Домашний HD
+https://dom-live-megafon2.mediavitrina.ru:443/hls-livef1/ctc-dom/tracks-v5a1/mono.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие" tvg-id="tv3-ru", ТВ3 (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+#EXTINF:-1 group-title="Общие", Звезда HD
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8 
+#EXTINF:-1 group-title="Кино и сериалы", Русский бестселлер
+http://91.142.158.107:8092/play/26/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", Русский детектив 
+http://45.144.31.195:8010/playlist.m3u8
