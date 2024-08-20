@@ -37,3 +37,45 @@ http://cdn.ntv.ru/th_serial/tracks-v1a1/mono.m3u8
 http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
 #EXTINF:-1, Победа
 http://ott-cdn.ucom.am/s47/04.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="domashny" group-title="Общие" tvg-logo="http://loganet.ru/images/channels/Domestic.png", Домашний (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="domashny-pl7" group-title="Общие" tvg-logo="http://loganet.ru/images/channels/Domestic.png", Домашний +7 (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8
+#EXTINF:-1 group-title="Общие" tvg-logo="http://loganet.ru/images/channels/Domestic.png", Домашний HD
+http://player.smotrim.ru/iframe/stream/live_id/64556?43
+#EXTINF:-1 group-title="Кино", Дорама
+https://stream2.cinerama.uz/1273/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино", Душевное
+http://188.190.222.48:8765/Dushevnoe_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино", Душевное HD
+http://195.211.27.149:8887/8296/index.m3u8?token=test
+#EXTINF:-1 group-title="Кино", Любимое HD
+http://195.211.27.149:8887/8310/index.m3u8?token=test
+#EXTINF:-1 group-title="Кино", Любимое кино 
+http://91.205.199.3/lubimoekino/index.m3u8
+#EXTINF:-1 group-title="Кино", Любимое кино HD
+http://195.158.222.115:8001/play/a0ap/index.m3u8
+#EXTINF:-1 group-title="Кино", Мир сериала 
+http://91.205.199.3/mirseriala/index.m3u8
+#EXTINF:-1 group-title="Кино", Мир сериала HD
+http://195.158.222.115:8000/play/75/index.m3u8
+#EXTINF:-1 group-title="Кино", Мосфильм. Золотая коллекция 
+http://94.232.104.237:8011/mosfilm/index.m3u8
+#EXTINF:-1 group-title="Кино", Про Любовь 
+http://iptv.mega.net.ru:8888/pro_lubov_hd/mono.m3u8
+#EXTINF:-1 group-title="Кино", Про Любовь HD
+http://hls127.homeiptv.org:8880/ProLubovHD/video.m3u8
+#EXTINF:-1 group-title="Кино", Родное кино 
+http://185.112.140.28:80/Rodnoe_Kino/index.m3u8
+#EXTINF:-1 group-title="Кино", Русский бестселлер
+http://91.142.158.107:8092/play/26/index.m3u8
+#EXTINF:-1 group-title="Кино", Русский детектив 
+http://91.142.158.107:8092/play/27/index.m3u8
+#EXTINF:-1 group-title="Кино", Русский иллюзион
+http://195.26.83.96:7006/play/a00y/index.m3u8
+#EXTINF:-1 group-title="Кино", Русский роман
+http://91.142.158.107:8092/play/25/index.m3u8
+#EXTINF:-1 group-title="Кино", Русский роман HD
+http://188.113.190.15/221/tracks-v1a1/index.m3u8
